@@ -1,0 +1,7 @@
+# pro_con
+
+A single-page app to help you weigh different the pros and cons in tough decisions.
+
+This is a quick little app I built for evaluating factors in a tough decision and seeing how they add up, because things are rarely just good/bad. The app lets you type in as many factors as you want and give them a relative positive/negative weight, and it calculates for you where you actually stand. There's no demarcation of the weights for the user, just a slider that starts in the middle and you push it right or left relative to how positive or negative you think the factor is. You can adjust weights as you go, and see how it affects the outcome. The app also gives you its opinion based on your input of whether you should or shouldn't do the thing you're debating about, and how strongly it feels. I'm actually a little surprised at just how helpful it's turned out to be!
+
+It's built mostly in pure javascript using only the Underscore library and the jQuery callbacks functionality for convenience in a few places. It uses an MVC structure and relies on localstorage to save data, so it only really works in Chrome, and what little styling there is, is also optimized for Chrome. For me this was more of an exercise in javascript than anything else so I didn't feel like spending the effort to build a backend or make it cross-browser compatible. I probably will soon because I think this is worth sharing with the world. :)
