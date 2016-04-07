@@ -1,0 +1,24 @@
+!!!
+%head
+  %link{ rel: 'stylesheet', href: 'css/styles.css', type: 'text/css' }
+  %script{ src: 'js/jquery-2.2.2.min.js' }
+  %script{ src: 'node_modules/underscore/underscore-min.js'}
+  :javascript
+    var proCon = {}
+  %script{ src: 'js/bundle.js', type: 'text/javascript' }
+  :javascript
+    var app = new proCon.Controller()
+%body
+  #total-bar
+    #bar
+  #decision
+  #sides
+    .item
+      %a#sort{ href: 'javascript:void(0)' } Sort Items
+      .name
+      .value
+        <-- Worse &nbsp;&nbsp;&nbsp;Better -->
+    / #cons.side
+    /   %h1 CONS
+    / #pros.side
+    /   %h1 PROs
