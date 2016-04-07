@@ -1,4 +1,4 @@
-# pro_con
+# Pros and Cons
 
 A single-page app to help you weigh different the pros and cons in tough decisions.
 
